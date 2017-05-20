@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.iossenac.listadecontatos.MainActivity">
+
+    <ListView
+        android:id="@+id/listaContatos"
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+
+    <Button
+        android:id="@+id/buttonNovo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="novoContato"
+        android:text="Novo"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Button
+        android:id="@+id/buttonFinalizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalizar"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="383dp" />
+</LinearLayout>
+
